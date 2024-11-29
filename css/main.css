@@ -90,7 +90,7 @@ textarea {
 }
 
 #hero-summary {
-  background: url(../images/picture1.jpg) no-repeat;
+  background: url() no-repeat;
   height: 190px;
   width: 382px;
   background-size: cover;
@@ -101,6 +101,11 @@ textarea {
   background-color: #9a2018;
   color: #fff;
   font-size: 16px;
+  position: relative;
+  left: 20px; 
+  padding: 5px 5px;
+  width: 170px; 
+  height: 30px; 
   transition: background-color 500ms linear;
   display: flex;
   justify-content: center;
@@ -118,8 +123,18 @@ textarea {
 }
 
 #hero-heading-box {
-  align-self: end;
+  position: relative;
+  left: 20px;
+  top: 100px; /* Move o box 20px para baixo */
+  width: 382px;
+  height: 71px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .hero-img-h2,
 .hero-img-h3 {
