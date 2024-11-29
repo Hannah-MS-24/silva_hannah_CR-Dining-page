@@ -4,7 +4,6 @@
   outline: 20px solid #333;
   max-width: 412px;
   margin: 20px auto 20px auto;
-  border-radius: 10px;
 }
 
 body {
@@ -87,6 +86,7 @@ textarea {
   height: 166px;
   width: 412px;
   background-size: cover;
+  background-position: top;
 }
 
 #hero-summary {
@@ -94,7 +94,6 @@ textarea {
   height: 190px;
   width: 382px;
   background-size: cover;
-  border-radius: 10px;
 }
 
 .book-now {
@@ -102,10 +101,10 @@ textarea {
   color: #fff;
   font-size: 16px;
   position: relative;
-  left: 20px; 
+  left: 20px;
   padding: 5px 5px;
-  width: 170px; 
-  height: 30px; 
+  width: 170px;
+  height: 30px;
   transition: background-color 500ms linear;
   display: flex;
   justify-content: center;
@@ -123,23 +122,14 @@ textarea {
 }
 
 #hero-heading-box {
-  position: absolute; /* Posiciona dentro do contêiner pai */
-  top: 0; /* Alinha ao topo do contêiner pai */
-  left: 0; /* Alinha ao lado esquerdo do contêiner pai */
-  width: 100%; /* Define largura igual ao do pai */
-  height: 100%; /* Define altura igual ao do pai */
-  padding: 15px; /* Espaçamento interno */
-  display: flex; /* Para centralizar conteúdo */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  background-color: rgba(249, 249, 249, 0.8); /* Fundo semitransparente */
-  border: none !important;
-  box-shadow: none !important;
-  background-color: transparent; /* Para eliminar fundo que pode parecer borda */
+  position: relative;
+  left: 20px;
+  top: 100px;
+  width: 382px;
+  height: 71px;
+  padding: 15px;
+  background-color: #f9f9f9;
 }
-
-
-
 
 .hero-img-h2,
 .hero-img-h3 {
