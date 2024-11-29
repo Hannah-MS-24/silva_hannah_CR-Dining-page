@@ -123,16 +123,21 @@ textarea {
 }
 
 #hero-heading-box {
-  position: relative;
-  left: 20px;
-  top: 100px; /* Move o box 20px para baixo */
-  width: 382px;
-  height: 71px;
-  padding: 15px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute; /* Posiciona dentro do contêiner pai */
+  top: 0; /* Alinha ao topo do contêiner pai */
+  left: 0; /* Alinha ao lado esquerdo do contêiner pai */
+  width: 100%; /* Define largura igual ao do pai */
+  height: 100%; /* Define altura igual ao do pai */
+  padding: 15px; /* Espaçamento interno */
+  display: flex; /* Para centralizar conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: rgba(249, 249, 249, 0.8); /* Fundo semitransparente */
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent; /* Para eliminar fundo que pode parecer borda */
 }
+
 
 
 
